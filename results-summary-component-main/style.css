@@ -258,4 +258,9 @@
       font-size: 15px !important;
     }
 
+    .points-box, .continue-button {
+      width: 288px;
+      
+    }
+
   }
