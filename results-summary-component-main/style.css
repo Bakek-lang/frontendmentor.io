@@ -148,14 +148,19 @@
 
   .memory {
     color: var(--orangey-yellow);
+    background: var(--yellow-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E);
   }
 
   .verbal {
     color: var(--green-teal);
+    background: var(--green-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F);
+
   }
 
   .visual {
     color: var(--cobalt-blue);
+    background: var(--blue-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6);
+
   }
 
   .numbers {
