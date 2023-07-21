@@ -33,6 +33,9 @@ main {
   flex: 1;
 }
 
+footer {
+  margin-bottom: 50px;
+}
 
 .container-flex {
   display: flex;
