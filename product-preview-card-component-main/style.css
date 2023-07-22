@@ -1,0 +1,116 @@
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%); 
+  --white: hsl(0, 0%, 100%); 
+}
+
+* {
+  margin: 0 auto;
+}
+
+body {
+  font-size: 14px;
+  background: var(--cream);
+}
+
+.desktop-picture {
+  display: none;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 343px;
+  height: 611px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--white);
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 343px;
+  border-radius: 10px;
+
+}
+
+.perfume {
+  text-transform: uppercase;
+  color: #6c7289;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  }
+
+  h1 {
+    width: 295px;
+    color: #1c232b;
+    font-family: 'Fraunces';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  .text-p {
+    width: 295px;
+    color: #6c7289;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+  }
+
+  .sale-price {
+    color: #3d8168;
+    font-family: 'Fraunces';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  .original-price {
+    color: #6c7289;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    text-decoration-line: line-through;
+  }
+
+  .cta-button {
+    width: 295px;
+    height: 48px;
+    border-radius: 8px;
+    background: #3d8168;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .cta {
+    text-decoration: none;
+    color: var(--white);
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .cart-icon {
+    width: 15px;
+    height: 16px;
+    margin-right: 10px;
+    border-radius: 0;
+  }
