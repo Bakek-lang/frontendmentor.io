@@ -1,0 +1,21 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+:root {
+  --purple-header: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+  --grey-textbox: #EEE5F4;
+  --white-color: #FFF; 
+
+  /* text colors */
+
+  --black-header-text: #3E2753;
+  --grey-paragraph-text: #A39DA9;
+  --left-textbox-text: #9341C8;
+  --right-textbox-text: #6E5D7E;
+  --subheading-mobile: #D99EFF;
+  --placeholder-text: #C5C9CC;
+
+  --app-background: #F5F3F7;
+  --background-color: #FAFAFA;
+}
