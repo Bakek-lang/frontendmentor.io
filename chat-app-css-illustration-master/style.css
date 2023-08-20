@@ -116,6 +116,13 @@ p {
   margin-top: 30px;
 }
 
+.combined {
+  width: 2px;
+  height: 8px;
+  margin-top: 38px;
+  margin-left: 76px;
+}
+
 h2 {
   color: #FFF;
   font-family: Rubik;
