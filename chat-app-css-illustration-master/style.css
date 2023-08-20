@@ -51,6 +51,7 @@ body {
   font-size: 1rem;
   background-color: var(--background-color);
   color: var(--grey-paragraph-text);
+  align-items: center;  /* visual purposes only */
 }
 
 main {
@@ -62,6 +63,12 @@ img {
 }
 
 /* 3. Typography */
+p {
+  font-size: 8px;
+}
+
+
+/* MOBILE APP */
 
 .mobile-app {
   border-radius: 30px;
@@ -72,7 +79,69 @@ img {
   width: 247px;
   height: 505px;
   box-shadow: 0px 30px 60px -10px rgba(62, 39, 83, 0.25);
-  border: 11px 9.5px solid var(--white-color);
+  border-width: 11px 9.5px;
+  border-style: solid;
+  border-color: var(--white-color);
+  
+}
+
+.mobile-header {
+  display: flex;
+  flex-direction: row;
+  width: 228px;
+  height: 66px;
+  flex-shrink: 0;
+  border-radius: 20px 20px 6px 6px;
+  background: var(--purple-header);
+  box-shadow: 0px 0px 13px 0px rgba(62, 39, 83, 0.25);
+  
+    
+}
+
+.arrow {
+  width: 4px;
+  height: 10px;
+  margin-left: 15.5px;
+  margin-top: 37px;
+
+}
+
+.profile-picture {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  border: 1px solid #FFF;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  margin-left: 8px;
+  margin-top: 30px;
+}
+
+h2 {
+  color: #FFF;
+  font-family: Rubik;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 30px;
+  margin-left: 8px;
+}
+.walk-p {
+  color: #D99EFF;
+  font-family: Rubik;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 8px;
+ }
+
+.dog {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.05);
 }
 
 h1 {
@@ -81,14 +150,86 @@ h1 {
   font-size: 2.5rem;
 }
 
-.mobile-header {
+/* CHAT STUFF */
+
+.chat-bubble{
+  background-color: var(--grey-textbox);
+  width: 128px;
+  height: 34px;
   display: flex;
-  flex-direction: row;
   align-items: center;
+  margin: 11px 0px 8px 7.5px;
+  border-radius: 10px 10px 10px 4px;
+  float: left;
 }
 
-.chat-bubble div{
-  background-color: var(--grey-textbox);
-  color: var(--left-textbox-text);
-  
+.chat-bubble-two {
+  margin: 0px 0px 0px 7.5px;
 }
+
+.left-chat-texts {
+  color: var(--left-textbox-text);
+  font-family: Rubik;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px; /* 137.5% */
+  width: 112px;
+  margin-left: 8px;
+  }
+
+  .doggies {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 16px;
+    margin-bottom: 7.5px;
+    margin-left: 84.5px;
+    margin-right: 7.5px;
+
+  }
+
+  .chat-bubble-white {
+    width: 128px;
+    height: 34px;
+    border-radius: 10px 10px 4px 10px;
+    background-color: var(--white-color);
+    box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.05);
+    display: flex;
+    align-items: center;
+    margin: 0px 7.5px 8px 92.5px;
+    float: right;
+  }
+
+  .white-chat-texts {
+    color: #6E5D7E;
+    font-family: Rubik;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px; /* 137.5% */
+    width: 112px;
+    margin-left: 8px;
+  }
+
+  .chat-bubble-white-two {
+    width: 80px;
+    height: 23px;
+    border-radius: 10px 10px 4px 10px;
+    background: var(--white-color);
+    box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.05);
+    display: flex;
+    align-items: center;
+    margin: 0px 7.5px 8px 140.5px;
+  }
+
+  .chat-bubble-two {
+    background-color: var(--grey-textbox);
+    width: 128px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin: 11px 0px 8px 7.5px;
+    border-radius: 10px 10px 10px 4px;
+    float: left;
+  }
