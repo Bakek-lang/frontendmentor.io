@@ -17,6 +17,7 @@ body {
   align-items: center;
   background: var(--Dark-Blue, #202733);
   margin: 0 auto;
+  width: 100%;
 }
 
 .advice-section {
