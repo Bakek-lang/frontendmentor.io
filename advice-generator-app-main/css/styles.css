@@ -16,6 +16,7 @@ body {
   justify-content: center;
   align-items: center;
   background: var(--Dark-Blue, #202733);
+  margin: 0 auto;
 }
 
 .advice-section {
