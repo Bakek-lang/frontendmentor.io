@@ -241,4 +241,69 @@ h1 {
     float: left;
   }
 
+  .price-button {
+    width: 160px;
+    height: 32px;
+    border-radius: 10px 10px 4px 10px;
+    background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+    box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.05);  
+    display: flex;
+    margin: 8px 60.5px 0px 7.5px;
+   }
+
+   .price-button img {
+    width: 12px;
+    height: 12px;
+    stroke-width: 1px;
+    margin-top: 10px;
+    margin-left: 8px;
+   }
+
+   .price-button p {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px; /* 137.5% */
+    margin: 11px 0px 0px 8px;
+   }
+
+   .price-button .price-tag{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 11px; /* 91.667% */
+    margin: 11px 0 0 35px; 
+   }
+
+   .input-bar {
+    width: 213px;
+    height: 33.909px;
+    border-radius: 16.954px;
+    background: var(--white-color);
+    margin-top: 16px;
+    display: flex;
+   }
+
+   .input-bar p{
+    width: 92.233px;
+    color: #C5C9CC;
+    font-family: Rubik;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.07px;
+    margin: 13px 0 0 19px;
+   }
+
+   .input-bar img{
+    width: 25px;
+    height: 25px;
+    margin: 4.8px 0 0 72px;
+   }
+
  
