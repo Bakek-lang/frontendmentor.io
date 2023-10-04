@@ -25,7 +25,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  gap: 25px;
+  gap: 5px;
   width: 540px;
   height: 332px;
 
@@ -64,12 +64,9 @@ h1 {
   letter-spacing: -0.3px;
 }
 
-.svg-container {
-  cursor: pointer;
-}
-
 .svg-container svg {
-  vertical-align: middle;
+  cursor: pointer;
+  top: 0px;
 }
 
 p {
@@ -79,6 +76,10 @@ p {
 
 .hidden {
   display: none;
+}
+
+.show {
+  padding-top: 25px;
 }
 
 @media (max-width: 600px) {
@@ -112,6 +113,7 @@ p {
 
   .hidden {
     display: block;
+    padding-top: 25px;
   }
 
   .show {

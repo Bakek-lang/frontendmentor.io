@@ -14,7 +14,7 @@
 const iconDice = document.querySelector(".svg-container");
 
 const originalIconDice = iconDice.innerHTML;
-const hoverIconDice = `<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144" viewBox="0 40 144 144" fill="none">
+const hoverIconDice = `<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144" viewBox="0 0 144 144" fill="none">
 <g filter="url(#filter0_d_0_80)">
   <circle cx="72" cy="72" r="32" fill="#53FFAA"/>
 </g>
