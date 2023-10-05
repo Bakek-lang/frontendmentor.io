@@ -85,6 +85,8 @@ function changeAccount(results) {
   }
 }
 
+const notFound = document.querySelector(".not-found");
+
 async function makeApiCall() {
   try {
     const inputInfo = document.querySelector(".stretch-input").value;
@@ -94,12 +96,16 @@ async function makeApiCall() {
     const fullURL = url + inputInfo;
     const response = await fetch(fullURL);
 
-    const results = await response.json();
-
-    changeAccount(results);
-
-    console.log(results);
-    console.log(results.login);
+    if (response.ok) {
+      notFound.textContent = "";
+      const results = await response.json();
+      changeAccount(results);
+      console.log(results);
+      console.log(results.login);
+    } else {
+      notFound.textContent = "No results";
+      notFound.style.color = "red";
+    }
   } catch (error) {
     console.log(error);
   }

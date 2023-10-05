@@ -251,3 +251,7 @@ input {
   font-weight: 400;
   line-height: 25px; /* 138.889% */
 }
+
+.not-found {
+  margin-right: 15px;
+}
