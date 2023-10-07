@@ -68,12 +68,14 @@ function changeAccount(results) {
     locationElement.style.opacity = "0.75";
     locationParagraph.textContent = "Not available";
   } else {
+    locationElement.style.opacity = "1";
     locationParagraph.textContent = results.location;
   }
   if (results.twitter_username === null) {
     twitter.style.opacity = "0.75";
     twitterParagraph.textContent = "Not available";
   } else {
+    twitter.style.opacity = "1";
     twitterParagraph.textContent = results.twitter_username;
   }
   websiteParagraph.textContent = results.html_url;
@@ -81,6 +83,7 @@ function changeAccount(results) {
     company.style.opacity = "0.75";
     companyParagraph.textContent = "Not available";
   } else {
+    company.style.opacity = "1";
     companyParagraph.textContent = results.company;
   }
 }
